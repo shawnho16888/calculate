@@ -1,6 +1,5 @@
 <?php
-	$currency = "JPY";
-	//$currency = $_POST["currency"];
+	$currency = $_POST["currency"];
 	
 	//Initialize cURL.
 	$ch = curl_init();
