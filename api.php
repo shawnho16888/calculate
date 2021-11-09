@@ -34,7 +34,7 @@
 		$post_data = http_build_query($data);
 		
 		$ch = curl_init();
-		curl_setopt($ch,CURLOPT_URL, 'https://shawnho16888.github.io/calculate/get_real_time_rate');
+		curl_setopt($ch,CURLOPT_URL, 'https://shawnho16888.github.io/calculate/get_real_time_rate.php');
 		curl_setopt($ch,CURLOPT_POST, true);
 		curl_setopt($ch,CURLOPT_POSTFIELDS, $post_data);
 		curl_setopt($ch,CURLOPT_RETURNTRANSFER, true);
